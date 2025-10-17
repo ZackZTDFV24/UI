@@ -15,7 +15,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	Notification.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 	Notification.BackgroundTransparency = 0.400
 	Notification.BorderSizePixel = 0
-	Notification.Position = UDim2.new(1, 5, 0, 75)
+	Notification.Position = UDim2.new(0.017, 0,0.056, 0)
 	Notification.Size = UDim2.new(0, 450, 0, 60)
 
 	Line.Name = "Line"
@@ -53,7 +53,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	Description.Parent = Notification
 	Description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Description.BackgroundTransparency = 1.000
-	Description.Position = UDim2.new(0.016, 0, 0.027, 0)
+	Description.Position = UDim2.new(0.161, 0, 0.483, 0)
 	Description.Size = UDim2.new(0, 205, 0, 18)
 	Description.Text = Desc
 	Description.TextColor3 = Color3.fromRGB(199, 199, 199)
